@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <item android:id="@+id/map"
+        android:title="@string/map"
+        android:orderInCategory="1"
+        android:icon="@mipmap/map"
+        android:layout_gravity="right"
+        app:showAsAction="always"/>
+
+    <item android:id="@+id/navigate"
+        android:title="@string/next"
+        android:orderInCategory="50"
+        android:icon="@mipmap/forward"
+        android:layout_gravity="right"
+        app:showAsAction="always"/>
+
+</menu>
+

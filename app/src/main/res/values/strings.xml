@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">KCWM</string>
+    <string name="next">Next</string>
+    <string name="title_activity_exhibit2">Exhibit2</string>
+    <string name="previous">previous</string>
+    <string name="map">map</string>
+    <string name="message">message</string>
+    <string name="museum">museum</string>
+    <string name="filler">Under Construction</string>
+    <string name="exhibit1Area1">The Civil War Museum takes a different look at the war than most Civil War Museums or battlefield sites around the nation. Our museum looks at the war through the lens of the seven states of the Upper Middle West: Illinois, Indiana, Iowa, Michigan, Minnesota, Ohio, and Wisconsin. While the vast majority of the Civil War battles took place far from these states, that doesn\'t mean that they didn\'t play an extremely important role in the four year conflict.
+
+\n\nIn fact, these seven states sent over 1,000,000 soldiers to fight in the Union Army. Of the seven states, Ohio sent the most men off to war, contributing 319,189 troops. Illinois was second on that list, sending 255,057.
+
+\n\nBeyond the sheer number of men who served in the Union Army, the Upper Middle West played an extremely important role in contributing raw materials for the war effort. Indiana\'s coal production more than tripled to meet industry\'s need for fuel. The demand for bullets drove a boom in the lead mining areas of Iowa, Wisconsin, and Illinois. Michigan produced salt, copper, and iron ore. Also, the expansive white pine forests of Minnesota, Wisconsin, and Michigan were converted into buildings, plank roads, and fuel.
+
+\n\nThe Upper Middle West also produced much of the food that the Union Army and the nation needed for survival. Indiana, Illinois, and Iowa grew corn to feed hogs. Railroads carried these hogs to Chicago were packers transformed them into bacon, ham, salt pork and lard. Mills in Indiana turned wheat into flour to supply the army\'s huge demand for bread.
+
+\n\nUpper Midwestern communities, large and small, were forever altered by the Civil War. Cities such as Chicago, Milwaukee, and Detroit grew in population and became major transportation hubs for railroads and shipping. Cairo, Illinois, became one of the largest supply depots and military camps of the war.
+
+\n\nFor all of these reasons, the seven states of the Upper Middle West played a key role in supporting the Union during the Civil War.</string>
+
+    <string name="exhibit2Area1">In the first half of the 19th century, the territory that would become the states of the Upper Middle West was seen as a wilderness frontier that was full of promise and opportunity. The open land attracted people of ambition and vigor, men and women interested in making a future. James Pond remembered how his father contracted \"Illinois Fever\" in 1845 after listening to a relative talk of the opportunities available in the prairie. Very soon after, the Pond family packed their belongings, said good-bye to friends and family in New York, and moved to Libertyville, Illinois.
+
+\n\nIt was not just native born Americans who were moving to the Upper Middle West. The land attracted a large number of immigrant settlers as well. In fact, Wisconsin\'s population of 775,881 people in 1860 was 1/3 foreign born, with the largest immigrant populations being of Irish and German decent.
+
+\n\nNative American tribes had a long history in the Upper Middle West. The Monominee, Ho-Chunk, Ojibwe, and Potawatomi had a centuries long association with French and Indian fur traders. By the time of the Civil War, though, the native tribes were dwindling. Federal policies, reservation life, and alcoholism divided families and caused trouble in many tribal circles.
+
+\n\nIn the years before the Civil War, free African-Americans came to the Upper Middle West to avoid slavery and establish communities. Like their white counterparts, they were attracted by family ties and available land for farming. In 1860, three quarters of the African-American population lived in rural areas rather than cities. </string>
+
+      <string name="exhibit2Area2">One of the most politically divided states of the Upper Middle West before the Civil War was Illinois. In the early decades of the 1800s, immigrants flowed into Southern Illinois from the states of Kentucky, Tennessee and Virginia. These \"Upland Southerners\" were small farmers, southern in origin, Protestant in religion, and Democratic in politics whose main business contacts lie in the southern Mississippi River valley.
+
+\n\nSouthern states began to secede from the Union after the election of Abraham Lincoln in 1860. At public meetings in southern Illinois, residents argued the merits of supporting the Union, granting independence to the southern states or withdrawing from Illinois and attaching to the emerging Confederate States of America.
+
+\n\nThe Confederate firing on Ft. Sumter and strong support for the Union by powerful Illinois Democrats  such as Stephen A. Douglas and John Logan convinced thousands in Southern Illinois to support and volunteer for the northern cause.</string>
+
+      <string name="exhibit3Area1">Caroline Quarlls is one of the most celebrated travelers of the Underground Railroad. She is the first known fugitive slave conducted through the Wisconsin network to freedom. Long after her journey, Caroline left a written record of her life and journey.
+
+\n\nQuarlls was 16 when she fled her master\'s home in St. Louis on July 4, 1842. She traveled by steamboat across the Mississippi River to Alton, Illinois, and then by stagecoach to Milwaukee. Pursued by agents of her owner, she was hidden by abolitionists in the Wisconsin towns of Pewaukee, Waukesha, Spring Prairie, and Burlington.
+
+\n\nIn September the same year, Waukesha resident Lyman Goodnow agreed to taker her around Chicago, through northeast Indiana, and across Michigan to Detroit. Once in Detroit, she crossed the Detroit River to freedom in Canada.</string>
+
+        <string name="exhibit3Area2">This door was salvaged from the second floor of the Maxson farmhouse in Springdale, Iowa, where John Brown and ten followers spent the winter of 1857-1858. Brown and his men were on their way east from Kansas when a lack of funds and the weather forced them to stop at Springdale.  While staying at the house, the men kept a regular routine of military drill, educational study, mock debates, and elections.  Brown left in mid-January to travel east to raise money, and returned in April to retrieve the men.</string>
+
+        <string name="exhibit4Area1">The Wide-Awakes were groups of young Republicans who outfitted themselves with lanterns, caps, and oil skin capes who protected and escorted Republican candidates and organized large political rallies in support of their candidates. The Wide-Awakes adopted the image of a large eye as their symbol.
+
+\n\nTheir ranks were open to any male over 18 willing to support Republican causes and outfit himself with cap, cape and torch at a cost of $1. Thousands of young men flocked to the new organization. In many northern communities, the display of men marching in the streets with lanterns and uniforms caused wild excitement.
+
+\n\nThroughout the Midwest, the Wide-Awakes made many appearances in 1860 before the presidential election. Two weeks before the election in November, Wide-Awakes led 3000 cheering Republicans around the Newhall House in Milwaukee while carrying splints of wooden fence and calling for the election of \"Honest Abe of Illinois.\"</string>
+
+    <string name="exhibit4Area2">Four major candidates vied for the presidency in 1860. The Democratic party splint apart and sent out two candidates: John C. Breckinridge of Kentucky to represent Southern interests, and Stephen A. Douglas of Illinois, representing Northern Democrats. The Constitutional Unionists, offered John Bell of Tennessee and their viewpoint of strict constitutional liberty. The Republicans, a new and distinctly Northern sectional party, chose Abraham Lincoln of Illinois as their candidate.
+
+Illinois, the home state of two candidates, was a key battleground state during the1860 Presidential  election. Abraham Lincoln won the eleven electoral votes of Illinois with just over 50 percent of the popular vote. Stephen A. Douglas ran second with 47 percent of the popular vote.
+
+As with the nation, the election split Illinois in half. Northern Illinois, a Republican stronghold, voted decidedly for Lincoln. Southern Illinois, aside from Union County and the counties around St. Louis, went for Douglas. The counties in central Illinois were split with those in the west voting for Douglas and those in the east going for Lincoln.
+</string>
+
+        <string name="exhibit5Area1">This 34 star American flag was presented to the members of the Company G, 1st Wisconsin Volunteer Infantry by the citizens of Kenosha at a lakeside celebration in the spring of 1861. Company G, numbering  79 men,  was made up of volunteer soldiers from Kenosha who had previously served in a local militia company known as the Park City Grays.
+
+\n\nAfter leaving Kenosha and training at Fort Scott in Milwaukee, the 1st Wisconsin moved east by rail to Harrisburg, Pennsylvania, and then by foot to Hagerstown, Maryland. On July 2, 1861, the 1st Wisconsin crossed the Potomac River into Virginia and fought at the Battle of Falling Waters, losing one man killed and one mortally wounded.  The regiment remained near the Potomac River for the rest of the summer until its three-month enlistment ended on August 21, 1861.  The 1st Wisconsin returned to Milwaukee and, amid a large welcoming reception, 680 of the men reenlisted in the Union army for a three year term. </string>
+
+         <string name="exhibit6Area1">The Union Army began formally organizing African American regiments in 1863 after the formation of the United States Colored Troop. Black infantry, cavalry, and artillery units represented every state in the Union. By 1865, 180,000 free African-Americans and former slaves served during the Civil War, making up nearly one-tenth of the Union Army.
+
+\n\nThe figure in this exhibit represents a member of the 29th U.S.C.T. The 29th was one of the most prominent Midwestern black regiments formed during the war. Organized in Quincy, Illinois, in Novmeber 1863, the 29th featured one company recruited from Milwaukee and four others from other states. It saw action at the Battle of the Crater outside Petersburg, Virginia, in 1864 and mustered out in November 1865 at Brownsville, Texas. </string>
+
+        <string name="exhibit6Area2">During the Civil War, the vast majority of infantry soldiers fired single-shot, muzzle loading weapons.  Well trained infantry soldiers could load and fire 2 to 4 aimed shots in a minute. Small arms ammunition was stored in the soldier\’s cartridge box, with a normal issue being approximately 40 rounds. The ammunition was a paper-wrapped cylinder which held the ball and powder.
+
+\n\nTo load the weapon, soldiers followed a nine-step process.
+
+\n\nFirst, the butt of the weapon was placed on the ground near the feet of the soldier while the left hand held the weapon a foot away from the body.
+
+\n\nThe soldier reached into his cartridge box with his right hand and removed a single round of ammunition.
+
+\n\nUsing his teeth, a soldier tore open the paper to expose the gun powder. He poured all of the powder into the barrel of the musket and placed the ball and paper into the barrel.
+
+\n\nThe soldier took the ramrod and pressed the ball and paper to the bottom of the barrel. The ramrod was then returned to its secure position.
+
+\n\nWith the thumb of the right hand, the soldier moved the hammer of the weapon to its half-cocked position. A percussion cap was retrieved from the cap pouch and put on the cone of the weapon.
+
+\n\nUsing his right thumb, the soldier pulled the hammer back to its full cocked position.
+
+\n\nThe butt of the weapon was brought to the shoulder, and the soldier took aim at his target.
+
+\n\nFinally, the soldier fired the weapon by using his right fore finger to pull the trigger.</string>
+
+    <string name="exhibit7Area1">\"Seeing the Elephant\" is the term Civil War soldiers used to describe their first experience with combat. A new, in-the-round movie experience entitled Seeing the Elephant at the Civil War Museum gives visitors a glimpse at \"the Elephant.\" The ten minute film--shown on an 11\' high, 44\' diameter circular screen-- utilizes 360\° movie technology to place museum visitors within the recruiting rallies, camps, and front lines of an Upper Midwestern company of soldiers. Using primary sources such as letters, newspaper articles, and diaries as the basis for the script, the movie follows three soldiers as they leave their homes, train, face battle, and deal with the consequences of war.
+
+ </string>
+
+    <string name="exhibit8Area1">The Navy played a large and important role in the Union victory in the Civil War. In four years, the Navy grew from a few dozen vessels that were ready for active duty to a force with almost 650 ships of varying types and sizes.
+
+\n\nThe Union had two goals for the Navy at the beginning of the war. The first was to blockade nearly 2500 miles of Confederate coastline to strangle the Southern economy. The second was to build a strong brown water navy of gunboats and transports to support army invasions of southern territory. This was particularly important in the battles that took place west of the Appalactian Mountains. The Mississippi, Tennessee, and Cumberland Rivers all flowed north to south and control of those rivers helped the Federal forces as they moved into the heart of the western Confederacy.</string>
+
+
+        <string name="exhibit9Area1">The end of the Civil War signaled great change in the country and in the Upper Middle West. Soldiers who had been away from home for years returned to find their states, towns, and families forever altered by the war. Industrialization moved many returning veterans into cities to find jobs in factories and shops rather than on the farms where whole families worked side by side. Women who had worked outside the home during the war and became comfortable making decisions concerning money and property continued to pursue opportunities in nursing, teaching, social work, and politics.
+
+\n\nMany veterans also looked for new opportunities and fortune in the lands west of the Mississippi River. With the opening of the transcontinental railroad in 1869, Midwestern cities became jump-off locations for westward expansion. </string>
+
+        <string name="exhibit10Area1">Some returning soldiers found the transition from military to civilian life extremely challanging. Many men returned home suffering from debilitating wounds or illnesses that made the return to their pre-war life impossible. Some suffered from unseen wounds of the mind that proved to be just as challanging and difficult.
+
+\n\nOne way the Federal Government tried to help the returning veteran was the creation of Soldiers\' Homes that would provide long term medical care for veterans. Due to lobbying and money from a successful 1865 fund raising fair, Milwaukee was selected as one of the three original braches of the National Asylum for Disabled Volunteer Soldiers. Located on the west side of the city, the National Home as it became known, was open to veterans of all wars, not just the Civil War.
+
+\n\nToday, the Zablocki Veterans Administration Medical Center sits on the grounds originally established as the National Home and continues the tradition established by the Civil War generation by caring for the medical needs of United States veteran soldiers. </string>
+    <string name="exhibit7">* The Civil War Museum\'s 360 degree movie \"Seeing the Elephant\" plays at the top of each hour every day.</string>
+
+</resources>
+
