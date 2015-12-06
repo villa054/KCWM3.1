@@ -30,7 +30,7 @@
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="fill_parent"
-            android:layout_height="300dp"
+            android:layout_height="230dp"
             android:layout_centerHorizontal="true"
             android:layout_below="@+id/app_bar"
             android:id="@+id/linearLayout4"
@@ -70,7 +70,8 @@
             android:text="The Civil War and Remembrance (Audio)"
             android:textStyle="bold"
             android:id="@+id/textView2"
-            android:gravity="center_vertical|center_horizontal" />
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="15dp" />
 
         <SeekBar
             android:layout_width="match_parent"
@@ -149,7 +150,8 @@
                 android:id="@+id/textView4"
                 android:paddingTop="5dp"
                 android:paddingLeft="5dp"
-                android:paddingRight="5dp" />
+                android:paddingRight="5dp"
+                android:textSize="18dp" />
 
             <ScrollView android:layout_height="match_parent"
                 android:layout_width="match_parent">
