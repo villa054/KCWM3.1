@@ -7,25 +7,26 @@
     android:background="#154667">
 
 
-    <ImageView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:id="@+id/imageView2"
-        android:src="@drawable/homelogo"
-        android:scaleType="center"
-        android:layout_above="@+id/linearLayout5"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
-
     <LinearLayout
         android:orientation="vertical"
-        android:layout_width="wrap_content"
+        android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="166dp"
-        android:layout_marginTop="166dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginTop="100dp"
         android:id="@+id/linearLayout5">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:src="@drawable/homelogo"
+            android:scaleType="center"
+            android:layout_above="@+id/linearLayout5"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="108dp" />
 
         <TextView
             android:layout_width="wrap_content"
@@ -37,7 +38,8 @@
 
             android:textColor="#FFFFFF"
             android:id="@+id/textView7"
-            android:layout_gravity="center_horizontal" />
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="50dp" />
     </LinearLayout>
 
 </RelativeLayout>

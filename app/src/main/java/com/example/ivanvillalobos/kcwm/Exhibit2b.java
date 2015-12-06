@@ -3,24 +3,33 @@ package com.example.ivanvillalobos.kcwm;
 import android.content.Intent;
 import android.media.MediaPlayer;
 import android.os.Bundle;
+import android.support.v4.view.GestureDetectorCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.GestureDetector;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.MotionEvent;
 import android.view.View;
 import android.widget.ImageButton;
 import android.widget.SeekBar;
-import android.widget.SeekBar.OnSeekBarChangeListener;
 import android.widget.Toast;
 
-public class Exhibit extends AppCompatActivity implements Runnable, View.OnClickListener, OnSeekBarChangeListener {
+public class Exhibit2b extends AppCompatActivity implements GestureDetector.OnGestureListener,
+        GestureDetector.OnDoubleTapListener, Runnable, View.OnClickListener, SeekBar.OnSeekBarChangeListener {
+
+
+
+    private GestureDetectorCompat gestureDetector;
+    private static final int SWIPE_DISTANCE_THRESHOLD = 100;
+    private static final int SWIPE_VELOCITY_THRESHOLD = 100;
+
 
     private SeekBar seek_bar;
     MediaPlayer audio;
     private ImageButton startMedia;
     private ImageButton stopMedia;
     int paused;
-
 
 
 
@@ -37,7 +46,10 @@ public class Exhibit extends AppCompatActivity implements Runnable, View.OnClick
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_exhibit);
+        setContentView(R.layout.activity_exhibit2b);
+
+        this.gestureDetector= new GestureDetectorCompat(this,this);
+        gestureDetector.setOnDoubleTapListener(this);
 
         seek_bar = (SeekBar) findViewById(R.id.seek_bar);
         startMedia = (ImageButton) findViewById(R.id.play);
@@ -77,7 +89,7 @@ public class Exhibit extends AppCompatActivity implements Runnable, View.OnClick
             startMedia.setImageResource(R.mipmap.pause);
 
             if (audio == null) {
-                audio = MediaPlayer.create(getApplicationContext(), R.raw.script1area1);
+                audio = MediaPlayer.create(getApplicationContext(), R.raw.script2area2);
                 seek_bar.setEnabled(true);
             }
             if (audio.isPlaying()) {
@@ -135,23 +147,21 @@ public class Exhibit extends AppCompatActivity implements Runnable, View.OnClick
 
     }
 
-
     public boolean onOptionsItemSelected(MenuItem item) {
 
         int id = item.getItemId();
 
         if(id==R.id.navigate){
-            startActivity(new Intent(this, Exhibit2.class));
+            startActivity(new Intent(this, Exhibit3.class));
             if(audio != null) {
                 audio.release();
             }
             finish();
 
-
         }
 
         if(id==R.id.navigatePrevious){
-            startActivity(new Intent(this, Exhibit10.class));
+            startActivity(new Intent(this, Exhibit.class));
             if(audio != null) {
                 audio.release();
             }
@@ -170,6 +180,94 @@ public class Exhibit extends AppCompatActivity implements Runnable, View.OnClick
 
 
         return super.onOptionsItemSelected(item);
+
+
+
+    }
+
+    @Override
+    public boolean onTouchEvent(MotionEvent event) {
+        this.gestureDetector.onTouchEvent(event);
+        return super.onTouchEvent(event);
+    }
+
+    @Override
+    public boolean onSingleTapConfirmed(MotionEvent e) {
+
+        return true;
+
+    }
+
+    @Override
+    public boolean onDoubleTap(MotionEvent e) {
+
+        return true;
+    }
+
+    @Override
+    public boolean onDoubleTapEvent(MotionEvent e) {
+
+        return true;
+    }
+
+    @Override
+    public boolean onDown(MotionEvent e) {
+
+        return true;
+    }
+
+    @Override
+    public void onShowPress(MotionEvent e) {
+
+
+    }
+
+    @Override
+    public boolean onSingleTapUp(MotionEvent e) {
+
+        return true;
+    }
+
+    @Override
+    public boolean onScroll(MotionEvent e1, MotionEvent e2, float distanceX, float distanceY) {
+        return true;
+    }
+
+    @Override
+    public void onLongPress(MotionEvent e) {
+
+    }
+
+    public void onSwipeLeft() {
+
+
+
+    }
+    public void onSwipeRight() {
+
+        Intent myIntent = new Intent(Exhibit2b.this, Exhibit2.class);
+        Exhibit2b.this.startActivity(myIntent);
+        if(audio != null) {
+            audio.release();
+        }
+        finish();
+
+
+    }
+
+
+    @Override
+    public boolean onFling(MotionEvent e1, MotionEvent e2, float velocityX, float velocityY) {
+        float distanceX = e2.getX() - e1.getX();
+        float distanceY = e2.getY() - e1.getY();
+        if (Math.abs(distanceX) > Math.abs(distanceY) && Math.abs(distanceX) > SWIPE_DISTANCE_THRESHOLD && Math.abs(velocityX) > SWIPE_VELOCITY_THRESHOLD) {
+            if (distanceX > 0)
+                onSwipeRight();
+            else
+                onSwipeLeft();
+            return true;
+        }
+        return false;
     }
 
 }

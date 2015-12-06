@@ -20,7 +20,6 @@
         android:layout_width="fill_parent"
         android:layout_height="wrap_content"
         android:layout_centerHorizontal="true"
-        android:gravity="center_horizontal"
         android:layout_below="@+id/app_bar"
         android:id="@+id/linearLayout"
         android:background="#00000000"
@@ -31,9 +30,9 @@
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="fill_parent"
-            android:layout_height="380dp"
+            android:layout_height="295dp"
             android:layout_centerHorizontal="true"
-            android:gravity="center_horizontal"
+            android:gravity="center_vertical|center_horizontal"
             android:layout_below="@+id/app_bar"
             android:id="@+id/linearLayout4"
             android:background="#DEDEDE"
@@ -46,6 +45,22 @@
                 android:src="@drawable/a2image1"
                 android:adjustViewBounds="false" />
 
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:gravity="center_horizontal"
+            android:background="#DEDEDE">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/imageView"
+                android:layout_gravity="center_horizontal"
+                android:src="@mipmap/pageicon" />
         </LinearLayout>
 
     </LinearLayout>
@@ -69,7 +84,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceMedium"
-            android:text="Our Forefathers (Audio)"
+            android:text="Our Forefathers (Audio 1)"
             android:textStyle="bold"
             android:id="@+id/textView2"
             android:gravity="center_vertical|center_horizontal" />
@@ -163,7 +178,8 @@
                 android:id="@+id/textView3"
                 android:paddingTop="10dp"
                 android:paddingLeft="5dp"
-                android:paddingRight="5dp" />
+                android:paddingRight="5dp"
+                android:singleLine="false" />
             </ScrollView>
 
         </LinearLayout>
